@@ -6,7 +6,7 @@ import "errors"
 type Dictionary map[string]string
 
 var (
-	errNotFound = errors.New("Not Found")
+	errNotFound   = errors.New("Not Found")
 	errWordExists = errors.New("That word already exists")
 	errCantUpdate = errors.New("Can't update non-existing word")
 )
